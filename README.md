@@ -17,7 +17,7 @@ TidyLens makes it explicit and repeatable. You declare what each column should l
 
 It also runs entirely client-side, which matters because the datasets most worth cleaning are usually the ones you can't paste into a website.
 
-## How it was specified
+## Specifications
 
 Built from a written specification rather than feature-by-feature. The spec
 defined the input formats, six cleaning rules, the analysis set, and the UI
