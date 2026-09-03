@@ -1,7 +1,7 @@
 # TidyLens
 A browser-based tool for cleaning datasets and running a first pass of exploratory analysis. Drop in a CSV or Excel file, define the rules each column should follow, export the cleaned data, then explore it with linked charts. Nothing is uploaded anywhere.
 
-Try it -> 
+**[Try it →](https://jhashw.github.io/tidylens)**
 
 ![TidyLens cleaning and profiling a dataset](docs/cleaning.png)
 
