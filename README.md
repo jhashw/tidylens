@@ -4,6 +4,7 @@ A browser-based tool for cleaning datasets and running a first pass of explorato
 Try it -> 
 
 ![TidyLens cleaning and profiling a dataset](docs/cleaning.png)
+
 ![TidyLens cleaning and profiling a dataset](docs/analysis.png)
 
 
