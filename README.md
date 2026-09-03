@@ -39,14 +39,12 @@ It also runs entirely client-side, which matters because the datasets most worth
 The file never leaves your machine. Parsing, cleaning, and chart rendering all happen client-side. There is no backend and no upload step. You can verify this by opening the browser network tab while loading a file.
 
 ## Running locally
-
+```
 git clone https://github.com/jhashw/tidylens.git
 cd tidylens
 open index.html
-
+```
 Single self-contained HTML file. No build step, nothing to install.. A sample dataset is bundled in for users to try it without their own file. 
-
-## Built with
 
 ## Built with
 
