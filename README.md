@@ -17,6 +17,17 @@ TidyLens makes it explicit and repeatable. You declare what each column should l
 
 It also runs entirely client-side, which matters because the datasets most worth cleaning are usually the ones you can't paste into a website.
 
+## How it was specified
+
+Built from a written specification rather than feature-by-feature. The spec
+defined the input formats, six cleaning rules, the analysis set, and the UI
+flow before any implementation began, then changed as real data exposed gaps:
+a missed timestamp column, a CDN dependency that broke the no-upload promise,
+statistics that were meaningless on ID columns.
+
+**[Read the specification →](SPEC.md)** - including what changed during
+iteration and why.
+
 ## Cleaning
 * Schema validation against the types you assign
 * Per-column data types, set through a dropdown rather than inferred
@@ -49,8 +60,7 @@ Single self-contained HTML file. No build step, nothing to install.. A sample da
 ## Built with
 
 Built with Claude Design. I wrote the specification, and iterated on the
-behaviour and interface through it. The requirements spec is in
-[SPEC.md](SPEC.md).
+behaviour and interface through it. 
 
 React 18 for the UI. There are no third-party data or charting libraries; the analytical work is all in-file:
 
