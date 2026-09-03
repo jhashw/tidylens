@@ -3,6 +3,10 @@ A browser-based tool for cleaning datasets and running a first pass of explorato
 
 Try it -> 
 
+![TidyLens cleaning and profiling a dataset](docs/cleaning.png)
+![TidyLens cleaning and profiling a dataset](docs/analysis.png)
+
+
 ## Motivation and Goal
 
 Most of the work with an unfamiliar dataset happens before any analysis: figuring out what each column is supposed to contain, catching the values that don't belong, standardizing dates and text, and only then looking at distributions. That pass is usually done ad hoc in a notebook and thrown away.
