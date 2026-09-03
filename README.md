@@ -25,7 +25,7 @@ flow before any implementation began, then changed as real data exposed gaps:
 a missed timestamp column, a CDN dependency that broke the no-upload promise,
 statistics that were meaningless on ID columns.
 
-**[Read the specification →](SPEC.md)** - including what changed during
+**[Read the specification →](SPEC.md)** including what changed during
 iteration and why.
 
 ## Cleaning
