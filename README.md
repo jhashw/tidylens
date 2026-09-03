@@ -55,7 +55,7 @@ git clone https://github.com/jhashw/tidylens.git
 cd tidylens
 open index.html
 ```
-Single self-contained HTML file. No build step, nothing to install.. A sample dataset is bundled in for users to try it without their own file. 
+Single self-contained HTML file. No build step, nothing to install. A sample dataset is bundled in for users to try it without their own file. 
 
 ## Built with
 
