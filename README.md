@@ -27,6 +27,7 @@ statistics that were meaningless on ID columns.
 
 **[Read the specification →](SPEC.md)** including what changed during
 iteration and why.
+Implemented with Claude Design against that spec.
 
 ## Cleaning
 * Schema validation against the types you assign
