@@ -19,12 +19,11 @@ It also runs entirely client-side, which matters because the datasets most worth
 
 ## Cleaning
 * Schema validation against the types you assign
-* Per-column data types, set through a dropdown rather than inferred and hoped for
+* Per-column data types, set through a dropdown rather than inferred
 * Allow and disallow lists so a column only accepts values from a defined set
 * Date handling with explicit format selection for time columns
 * String cleaning covering special characters and encoding, trailing whitespace, and case standardization
 * Inconsistency flagging that surfaces problems it can't resolve on its own and asks how to handle them
-* Export of the cleaned dataset
 
 ## Analysis
 
