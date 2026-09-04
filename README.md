@@ -1,5 +1,5 @@
 # TidyLens
-A browser-based tool for cleaning datasets and running a first pass of exploratory analysis. Drop in a CSV or Excel file, define the rules each column should follow, export the cleaned data, then explore it with linked charts. Nothing is uploaded anywhere.
+A browser-based tool for cleaning datasets and running a first pass of exploratory analysis. Drop in a CSV or Excel file, and it will automatically identify issues (placeholder nulls, casing variants, encoding defects, duplicate keys) with a one-click fix/leave option. For more control, you can define rules for each column (allow-lists, missig value handling). You can then export the cleaned dataset, and explore it with linked scatter plots, histograms and correlations. Nothing is uploaded anywhere.
 
 **[Try it →](https://jhashw.github.io/tidylens)**
 
